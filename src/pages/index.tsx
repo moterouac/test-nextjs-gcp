@@ -44,7 +44,9 @@ const FetchComponent = () => {
         </div>
       ) : (
         <div className="container">
-          <button onClick={() => fetchData()}>Obtener receta</button>
+          <button onClick={() => fetchData()} className="button">
+            Obtener receta
+          </button>
           <div>
             {result ? (
               <div>
